@@ -8,7 +8,6 @@ import Offer from "./components/Offer";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Newsletter from "./components/Newsletter";
-
 function App() {
   return (
     <>
@@ -19,12 +18,9 @@ function App() {
       <Progress/>
       <Offer/>
       <Testimonials/>
-            <Newsletter/>
-
+      <Newsletter/>
       <Footer/>
-
     </>
   );
 }
-
 export default App;
