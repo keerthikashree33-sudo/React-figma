@@ -1,9 +1,10 @@
+import progressImg from './people-business-meeting-high-angle_23-2148911819.png';
 function Progress() {
   return (
     <section className="progress">
       <div className="progress-image">
-        <img src="src\components\people-business-meeting-high-angle_23-2148911819.png" alt="Progress" />
-      </div>
+<img src={progressImg} alt="Progress" />
+     </div>
 
       <div className="progress-text">
         <h2>
