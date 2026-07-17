@@ -1,10 +1,12 @@
+import meetingImg from './images(2).png';
+
 function Tomorrow() {
   return (
     <section className="tomorrow">
       <div className="tomorrow-content">
         <div className="tomorrow-text">
           <h2>
-            <span style={{backgroundColor:'yellow'}}> Tomorrow</span> should
+            <span style={{ backgroundColor: 'yellow' }}> Tomorrow</span> should
             <br />
             be better than <span>today</span>
           </h2>
@@ -22,7 +24,7 @@ function Tomorrow() {
         </div>
 
         <div className="tomorrow-image">
-          <img src="src\components\images(2).png" alt="Meeting" />
+          <img src={meetingImg} alt="Meeting" />
         </div>
       </div>
     </section>
