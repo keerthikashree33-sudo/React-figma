@@ -22,7 +22,7 @@ function Tomorrow() {
         </div>
 
         <div className="tomorrow-image">
-          <img src="src\components\images (2).png" alt="Meeting" />
+          <img src="src\components\images(2).png" alt="Meeting" />
         </div>
       </div>
     </section>
